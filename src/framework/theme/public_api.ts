@@ -102,6 +102,7 @@ export * from './components/chat/chat-message-map.component';
 export * from './components/chat/chat-message-file.component';
 export * from './components/chat/chat-message-quote.component';
 export * from './components/chat/chat-message-text.component';
+export * from './components/chat/chat-message-html.component';
 export * from './components/chat/chat-form.component';
 export * from './components/chat/chat.module';
 export * from './components/chat/chat.options';
