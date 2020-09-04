@@ -96,7 +96,8 @@
       color: white;
     }
 
-    nb-chat-message-text {
+    nb-chat-message-text,
+    nb-chat-message-html {
 
       display: flex;
       flex-direction: column;
@@ -148,8 +149,9 @@
           height: 100%;
         }
       }
-
-      nb-chat-message-text {
+      
+    nb-chat-message-text,
+    nb-chat-message-html {
         display: block;
         margin-bottom: 0.5rem;
       }
@@ -198,7 +200,8 @@
         @include nb-rtl(margin-left, 3rem);
       }
 
-      nb-chat-message-text {
+    nb-chat-message-text,
+    nb-chat-message-html {
         align-items: flex-start;
 
         .text {
@@ -227,7 +230,8 @@
         @include nb-rtl(margin-right, 3rem);
       }
 
-      nb-chat-message-text {
+      nb-chat-message-text,
+      nb-chat-message-html {
         align-items: flex-end;
         .sender {
           @include nb-ltr(text-align, right);
